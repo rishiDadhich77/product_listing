@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.nav > .logo >img{
+  width: 200px;
+  height: 50px;
+}
+
+.nav > .cart {
+  padding: 15px;
+}
+.nav > ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav > ul > li {
+  padding: 0 30px;
+}
+.restorent-card{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card{
+  /* border: 1px solid black; */
+  box-shadow: 0 0 4px gray;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.card >img {
+  width: 100%;
+  /* max-height: 150px;
+  min-height: 130px; */
+  height: 150px;
+}
